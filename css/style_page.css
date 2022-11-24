@@ -1,0 +1,219 @@
+@charset "utf-8";
+
+
+
+.body_nav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(101,166,147,1.00);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+body {
+    background-color: #F1EFE8;
+	
+}
+
+
+* {
+    padding: 0;
+	margin: 0;}
+#img_logo {
+    width: 80%;
+    height: auto;
+    padding-left: 17px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+
+ul li a {
+    padding-top: 29px;
+    padding-right: 8px;
+    padding-left: 17px;
+    padding-bottom: 8px;
+    font-size: 19px;
+    color: #FFFFFF;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Montserrat Bold";
+ }
+ul li a:hover { 
+  color: #A39D8B;
+}
+#menu {
+	 padding-left: 0px;
+}
+.main section {
+    padding-left: 35px;
+    margin-left: 0px;
+}
+.flex_contener_section  {
+    margin-left: 40px;
+}
+main section div     {
+    margin-left: 29px;
+    width: 350px;
+    height: 550px;
+    display: inline-block;
+    background-color: #A39D8B;
+    border-radius: 37px;
+    padding-top: 8px;
+
+
+}
+
+
+
+.main {
+    margin-left: 250px;
+    font-size: 28px;
+    padding: 0px 10px;
+    margin-top: 43px;
+}
+body header {
+	margin-left: 250px;
+    font-size: 28px;
+    height: 85px;
+}
+body header h1 {
+    font-family: "Bebas Regular";
+    text-align: center;
+    padding-top: 33px;
+}
+main section p {
+    font-family: "Montserrat Regular";
+    font-size: 20pt;
+    margin-left: 60px;
+}
+
+
+
+.main section h2 {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    font-family: "Bebas Regular";
+    font-size: 62pt;
+    padding-left: 0px;
+    margin-left: 56px;
+    font-weight: normal;
+    padding-bottom: 26px;
+}
+
+
+.footer {
+    margin-left: 250px;
+    font-size: 28px;
+    height: 85px;
+    background-color: #A39D8B;
+}
+
+
+
+@media screen and (max-height: 450px) 
+.main section h2 {
+}
+#imagen_flotante {
+    width: 800px;
+    padding-left: 0px;
+    padding-right: 30px;
+    float: left;
+    margin-left: 0px;
+    padding-bottom: 25px;
+}
+#imagen_flotante2 {
+    float: right;
+    width: 300px;
+    padding-left: 30px;
+    padding-bottom: 30x;
+}
+section div p {
+    margin-right: 68px;
+    text-align: center;
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+.section_div_h2   {
+    font-size: 13px;
+    text-align: center;
+    margin-right: 46px;
+}
+.flex_contener_section div img {
+    width: 300px;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 11px;
+    border-radius: 26px;
+}
+.Formulario {
+    border: 12PX solid #A39D8B;
+    margin-top: 12px;
+    display: inline-block;
+    padding-top: 8px;
+}
+
+.main .flex_contener_section .Formulario {
+    background-color: #F1EFE8;
+    border: 8px solid #A39D8B;
+    display: inline-block;
+    text-align: left;
+    padding-top: 8px;
+
+}
+.Formulario form input {
+    display: inline-block;
+}
+
+.label   {
+    font-family: montserrat;
+    font-style: normal;
+    font-size: 15px;
+    padding-right: 48px;
+    margin-left: 21px;
+    display: inline-table;
+    text-align: left;
+    padding-left: 0px;
+    color: rgba(101,166,147,1.00);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.Formulario form .input {
+    margin-left: 14px;
+
+}
+.Formulario form .input2 {
+    margin-left: 20px;
+}
+.flex_contener_section .Formulario p {
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 20px;
+    margin-bottom: 9px;
+    margin-top: -27px;
+}
+.Formulario form .imput3 {
+    margin-left: -30px;
+}
+.flex_contener_section div .p1 {
+    text-align: left;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.flex_contener_section .Formulario .p2 {
+    color: #A39D8B;
+}
+.flex_contener_section .Formulario .button {
+    width: 120px;
+    height: 30px;
+    margin-left: 110px;
+    margin-bottom: o;
+    padding-bottom: 0px;
+    margin-top: -37px;
+    text-align: center;
+}

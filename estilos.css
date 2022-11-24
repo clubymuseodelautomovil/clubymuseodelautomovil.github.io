@@ -1,0 +1,295 @@
+@charset "utf-8";
+@import url("Bebas_Regular/stylesheet.css");
+@import url("Montserrat_Regular/stylesheet.css");
+@import url("Montserrat_Bold/stylesheet.css");
+
+
+
+body header, main, footer {
+    background-color: rgba(242,239,233,1.00);
+    height: auto;
+    width: 576px;
+	}
+
+.slider{
+    width: 576px;
+    height: auto;
+    overflow: hidden;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: -17px;
+	
+}
+
+
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite;
+}
+body {
+    width: 576px;
+    height: auto;
+}
+
+
+.slider li{
+    width: 250%;
+    list-style: none;
+    height: 368px;
+}
+
+.slider img{
+	width: 100%;
+}
+
+@keyframes slide {
+	0%{margin-left: 0%;}
+	20%{margin-left: 0%;}
+	
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+	
+	50%{margin-left: -200%;}
+	75%{margin-left: -200%;}
+	
+	80%{margin-left: -300%;}
+	1000%{margin-left: -300%;}
+} 
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #F2EFE9;
+    border-radius: 0 5px 5px 0;
+    margin-top: 181px;
+    font-family: "Montserrat Bold";
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#inicio {
+    top: 20px;
+    background-color: #65A691;
+}
+
+#club {
+  top: 80px;
+  background-color: #9B9B99;
+}
+
+#museo {
+  top: 140px;
+  background-color: #D95436;
+}
+
+#servicios {
+  top: 200px;
+  background-color: #D9A536;
+}
+
+#contactanos {
+  top: 260px;
+  background-color: #262221;
+}
+
+body header h1 {
+    color: rgba(38,34,33,1.00);
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+}
+
+	
+body header img {
+    width: 287px;
+    margin-left: 144px;
+}
+#header {
+    background-color: rgba(101,166,147,1.00);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main section h1 {
+    width: 576px;
+    margin-top: -1px;
+    padding-top: 39px;
+    left: auto;
+    font-family: "Bebas Regular";
+    font-style: normal;
+    font-weight: 400;
+    padding-right: auto;
+    display: table-caption;
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: medium solid #DA5436;
+}
+#imag_flotante {
+    width: 260px;
+    float: left;
+    margin-right: 25px;
+    margin-left: 15px;
+}
+p {
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 15px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.flex_contener_section.div.img div .p1 {
+    font-family: "Montserrat Regular";
+}
+
+.footer {
+    margin-left: 0px;
+    font-size: 28px;
+    height: 85px;
+    background-color: rgba(101,166,147,1.00);
+    left: 0px;
+}
+#header {
+}
+.flex_contener_section div img {
+    width: 300px;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 21px;
+    border-radius: 26px;
+}
+.Formulario {
+    border: 12PX solid #A39D8B;
+    margin-top: 21px;
+    display: inline-block;
+    padding-top: 8px;
+    background-color: rgba(242,239,233,1.00);
+    height: 314px;
+}
+.Formulario form input {
+    display: inline-block;
+    text-align: left;
+}
+
+.label   {
+    font-family: montserrat;
+    font-style: normal;
+    font-size: 15px;
+    padding-right: 48px;
+    margin-left: 21px;
+    display: inline-table;
+    text-align: left;
+    padding-left: 0px;
+    color: rgba(101,166,147,1.00);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.Formulario form .input {
+    margin-left: 14px;
+
+}
+.Formulario form .input2 {
+    margin-left: 20px;
+}
+.flex_contener_section .Formulario p {
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 20px;
+    margin-bottom: 9px;
+    margin-top: -27px;
+    padding-top: 12px;
+}
+.Formulario form .imput3 {
+    margin-left: -30px;
+}
+.flex_contener_section div .p1 {
+    text-align: center;
+    font-size: 15px;
+    color: rgba(242,239,233,1.00);
+    margin-top: -7px;
+}
+.flex_contener_section .Formulario .p2 {
+    color: #A39D8B;
+}
+.flex_contener_section .Formulario .button {
+    width: 81px;
+    height: 27px;
+    margin-left: 140px;
+    margin-bottom: o;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: "Montserrat Bold";
+    font-size: medium;
+    -webkit-box-shadow: 4px 4px #D95436;
+    box-shadow: 4px 4px #D95436;
+    border-width: 0%;
+}
+.flex_contener_section.div.img .Formulario .button:hover {
+    background-color: #D95436;
+}
+.flex_contener_section.div.img div #submit {
+    width: 80px;
+    height: 30px;
+    margin-top: 21px;
+    margin-left: 141px;
+    background-color: #F2EFE9;
+    font-family: "Montserrat Regular";
+    -webkit-box-shadow: 4px 4px #D95436;
+    box-shadow: 4px 4px #D95436;
+}
+.flex_contener_section.div.img div #submit:hover  {
+    color: #D95436;
+}
+
+
+
+main section div     {
+    margin-left: 129px;
+    width: 350px;
+    height: 539px;
+    display: inline-block;
+    background-color: #A39D8B;
+    border-radius: 37px;
+    padding-top: 0px;
+    margin-top: 14px;
+
+
+}
+#titulodiv   {
+    text-align: center;
+    font-size: 25px;
+    color: rgba(242,239,233,1.00);
+    font-family: "Montserrat Bold";
+}
+.label2 {
+    font-family: "Montserrat Regular";
+    font-size: small;
+    color: #F2EFE9;
+    margin-left: 55px;
+}
+#img_div {
+    width: 60%;
+    height: 35%;
+    margin-left: 62px;
+}
+#img_div {
+    margin-bottom: 22px;
+}
+#img_div {
+}
+body p {
+    font-family: "Montserrat Regular";
+    font-size: medium;
+    margin-top: -7px;
+}
+#titulodiv {
+}
